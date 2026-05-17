@@ -1,9 +1,14 @@
 # Healthcare Active Directory Infrastructure Project
+---
 
 ## Overview
 This project focuses on designing and planning a multi-site Active Directory infrastructure for a healthcare organization consisting of Bayside Memorial Hospital, Tiburon Medical Park, and Larkspur Ambulatory Complex. The project was built to simulate a real-world enterprise Windows Server environment with centralized management, secure authentication, replication planning, and disaster recovery considerations.
+---
+
 ## Scenario
 A healthcare organization is consolidating three medical facilities into a single managed Active Directory environment. The infrastructure must support secure communication, centralized administration, HIPAA-related security considerations, and reliable access to Electronic Medical Records (EMR) systems across all locations.
+---
+
 ## Project Objectives
 - Design and implement an Active Directory infrastructure
 - Configure DNS support for Active Directory
@@ -14,6 +19,8 @@ A healthcare organization is consolidating three medical facilities into a singl
 - Configure NTFS permissions and folder access controls
 - Design backup and disaster recovery strategies
 - Support secure access to healthcare systems and records
+  ---
+  
 ## Network Design
 
 The environment was designed to support three healthcare facilities connected through a centralized Active Directory infrastructure.
@@ -39,6 +46,8 @@ Examples:
 - LK-PC-FLEET-01 = Larkspur fleet workstation 01
 
 This naming structure helps with inventory tracking, troubleshooting, documentation, and future expansion.
+---
+
 ## IP Addressing Plan
 The network was divided into separate subnets for each healthcare facility to improve organization, security, and network management.
 
@@ -52,6 +61,8 @@ Server and infrastructure devices used static IP addressing, while client workst
 DNS services supported Active Directory name resolution and communication between systems across all locations.
 
 The addressing structure was designed to support scalability, simplified troubleshooting, and secure communication between sites.
+---
+
 ## Active Directory OU Structure
 The Active Directory environment was organized using Organizational Units (OUs) to simplify administration, policy management, and access control across all healthcare locations.
 
@@ -79,6 +90,8 @@ Example OU Structure:
   - Transportation
 
 This structure allowed Group Policy Objects (GPOs) and permissions to be applied efficiently based on department roles and organizational requirements.
+---
+
 ## Replication Strategy
 Active Directory replication was designed to maintain consistent directory information across all healthcare locations.
 
@@ -92,6 +105,8 @@ Replication planning focused on:
 - Improving fault tolerance and availability
 
 Site replication ensured that updates made within the Active Directory environment were distributed across all facilities while maintaining centralized management and secure communication.
+---
+
 ## Password and GPO Strategy
 Group Policy Objects (GPOs) were implemented to strengthen security, standardize system configurations, and support HIPAA-related requirements within the healthcare environment.
 
@@ -110,6 +125,8 @@ Additional Group Policy configurations included:
 - Mapped network drives and shared folder access
 
 The GPO strategy helped improve centralized management, endpoint security, and compliance across all healthcare locations.
+---
+
 ## Folder Access and NTFS Permissions
 NTFS permissions and shared folder access were configured using role-based access control principles to help secure sensitive healthcare data.
 
@@ -129,6 +146,7 @@ This approach helped support:
 - Data confidentiality
 - HIPAA-related security practices
 - Reduced risk of unauthorized access
+  ---
   
 ## Backup and Disaster Recovery Plan
 A backup and disaster recovery strategy was developed to help protect critical healthcare systems, user data, and Active Directory services from outages, accidental deletion, ransomware, or hardware failure.
@@ -147,6 +165,8 @@ Critical systems included:
 - Server configuration data
 
 The disaster recovery plan focused on minimizing downtime, maintaining business continuity, and supporting secure recovery operations across all healthcare locations.
+---
+
 ## Skills Demonstrated
 - Active Directory Administration
 - Windows Server Management
@@ -162,6 +182,8 @@ The disaster recovery plan focused on minimizing downtime, maintaining business 
 - Virtualization
 - Security Policy Implementation
 - Documentation and Technical Planning
+  ---
+  
 ## Lessons Learned
 This project strengthened my understanding of enterprise Windows environments, centralized administration, and infrastructure planning within a healthcare organization.
 
@@ -175,3 +197,17 @@ Through this project, I gained hands-on experience with:
 - Role-based access control and NTFS permissions
 
 This project also improved my troubleshooting, documentation, and technical planning skills while reinforcing the importance of security, scalability, and centralized management in enterprise environments.
+---
+
+## Technologies Used
+
+- Windows Server
+- Active Directory Domain Services (AD DS)
+- DNS
+- DHCP
+- Group Policy Management
+- PowerShell
+- VirtualBox
+- Windows 10/11
+- Networking Fundamentals
+
