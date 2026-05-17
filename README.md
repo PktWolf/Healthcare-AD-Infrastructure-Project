@@ -2,6 +2,7 @@
 
 
 ## Overview
+
 This project focuses on designing and planning a multi-site Active Directory infrastructure for a healthcare organization consisting of Bayside Memorial Hospital, Tiburon Medical Park, and Larkspur Ambulatory Complex. The project was built to simulate a real-world enterprise Windows Server environment with centralized management, secure authentication, replication planning, and disaster recovery considerations.
 
 ---
@@ -12,6 +13,7 @@ A healthcare organization is consolidating three medical facilities into a singl
 ---
 
 ## Project Objectives
+
 - Design and implement an Active Directory infrastructure
 - Configure DNS support for Active Directory
 - Develop logical and physical network designs
@@ -41,6 +43,7 @@ The environment was designed to support three healthcare facilities connected th
   ---
   
 ## Device Naming Standards
+
 The device naming standard was designed to make each system easy to identify based on site, device type, department, and number.
 
 ![Device Naming Standards](Screenshots/device-naming-standards.png)
@@ -60,6 +63,7 @@ This naming structure helps with inventory tracking, troubleshooting, documentat
 ---
 
 ## IP Addressing Plan
+
 The network was divided into separate subnets for each healthcare facility to improve organization, security, and network management.
 
 ![IP Addressing Plan](Screenshots/ip-addressing-plan.png)
@@ -78,7 +82,12 @@ The addressing structure was designed to support scalability, simplified trouble
 ---
 
 ## Active Directory OU Structure
+
 The Active Directory environment was organized using Organizational Units (OUs) to simplify administration, policy management, and access control across all healthcare locations.
+
+<img src="Screenshots/active-directory-domain-structure.png" width="700">
+
+This screenshot demonstrates Active Directory domain structure and centralized domain management using Windows Server Active Directory Users and Computers (ADUC).
 
 The OU structure separated users, computers, groups, and departments by location and function.
 
@@ -108,6 +117,7 @@ This structure allowed Group Policy Objects (GPOs) and permissions to be applied
 ---
 
 ## Replication Strategy
+
 Active Directory replication was designed to maintain consistent directory information across all healthcare locations.
 
 The Bayside Memorial Hospital site functioned as the primary central office and main replication hub. Remote locations replicated Active Directory data through secure WAN/T1 connections.
@@ -124,6 +134,7 @@ Site replication ensured that updates made within the Active Directory environme
 ---
 
 ## Password and GPO Strategy
+
 Group Policy Objects (GPOs) were implemented to strengthen security, standardize system configurations, and support HIPAA-related requirements within the healthcare environment.
 
 Password policies included:
@@ -145,6 +156,7 @@ The GPO strategy helped improve centralized management, endpoint security, and c
 ---
 
 ## Folder Access and NTFS Permissions
+
 NTFS permissions and shared folder access were configured using role-based access control principles to help secure sensitive healthcare data.
 
 Access permissions were assigned based on department responsibilities and organizational roles.
@@ -167,6 +179,7 @@ This approach helped support:
   ---
   
 ## Backup and Disaster Recovery Plan
+
 A backup and disaster recovery strategy was developed to help protect critical healthcare systems, user data, and Active Directory services from outages, accidental deletion, ransomware, or hardware failure.
 
 The backup strategy included:
@@ -187,6 +200,7 @@ The disaster recovery plan focused on minimizing downtime, maintaining business 
 ---
 
 ## Skills Demonstrated
+
 - Active Directory Administration
 - Windows Server Management
 - DNS and DHCP Configuration
@@ -203,6 +217,7 @@ The disaster recovery plan focused on minimizing downtime, maintaining business 
 - Documentation and Technical Planning
   
   ---
+
   
 ## Lessons Learned
 This project strengthened my understanding of enterprise Windows environments, centralized administration, and infrastructure planning within a healthcare organization.
