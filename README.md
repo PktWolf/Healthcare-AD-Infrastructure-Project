@@ -19,6 +19,7 @@ A healthcare organization is consolidating three medical facilities into a singl
 - Configure NTFS permissions and folder access controls
 - Design backup and disaster recovery strategies
 - Support secure access to healthcare systems and records
+  
   ---
   
 ## Network Design
