@@ -28,6 +28,8 @@ A healthcare organization is consolidating three medical facilities into a singl
 
 The environment was designed to support three healthcare facilities connected through a centralized Active Directory infrastructure.
 
+![Network Topology](Screenshots/network-topology.png)
+
 - Bayside Memorial Hospital served as the primary site and central office
 - Tiburon Medical Park and Larkspur Ambulatory Complex operated as remote locations
 - Each site contained its own subnet for network segmentation and management
