@@ -68,6 +68,24 @@ The network was divided into separate subnets for each healthcare facility to im
 
 ![IP Addressing Plan](Screenshots/ip-addressing-plan.png)
 
+The healthcare environment used segmented subnets for each medical facility to improve scalability, security, and network management.
+
+### Bayside Memorial Hospital
+![BS-DC1](Screenshots/BS-DC1-IPConfig.png)
+
+Primary domain controller configured with static IP settings and centralized DNS services.
+
+### Tiburon Medical Park
+![TB-DC2](Screenshots/TB-DC2-IPConfig.png)
+
+Remote site domain controller configured on the 10.1.2.0/24 subnet.
+
+### Larkspur Ambulatory Complex
+![LK-DC3](Screenshots/LK-DC3-IPConfig.png)
+
+Remote healthcare site configured with dedicated addressing and Active Directory connectivity.
+
+
 Subnet Allocation:
 - Bayside Memorial Hospital: 10.0.1.0/24
 - Tiburon Medical Park: 10.0.2.0/24
