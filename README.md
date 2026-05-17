@@ -62,6 +62,8 @@ This naming structure helps with inventory tracking, troubleshooting, documentat
 ## IP Addressing Plan
 The network was divided into separate subnets for each healthcare facility to improve organization, security, and network management.
 
+![IP Addressing Plan](Screenshots/ip-addressing-plan.png)
+
 Subnet Allocation:
 - Bayside Memorial Hospital: 10.0.1.0/24
 - Tiburon Medical Park: 10.0.2.0/24
