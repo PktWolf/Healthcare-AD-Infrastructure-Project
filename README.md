@@ -43,6 +43,8 @@ The environment was designed to support three healthcare facilities connected th
 ## Device Naming Standards
 The device naming standard was designed to make each system easy to identify based on site, device type, department, and number.
 
+![Device Naming Standards](Screenshots/device-naming-standards.png)
+
 Naming format:
 
 SITE-DEVICE-DEPARTMENT-##
